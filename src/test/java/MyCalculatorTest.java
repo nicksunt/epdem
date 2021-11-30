@@ -15,9 +15,9 @@ public class MyCalculatorTest {
 
     @Test
     public void isSum2(){
-        double x = 4;
+        double x = 5;
         int y = 5;
-        double z = x+y;
+        double z = x+y+1;
         Assert.assertEquals(z,myCalculator.sum(x,y), 0.00001);
     }
     @Test
