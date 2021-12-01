@@ -22,7 +22,7 @@ public class MyCalculatorTest {
     }
     @Test
     public void isSum3(){
-        char x = 4;
+        char x = 6;
         int y = 5;
         int z = x+y;
         Assert.assertEquals(z,myCalculator.sum(x,y), 0.00001);
