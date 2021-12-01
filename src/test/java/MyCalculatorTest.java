@@ -24,7 +24,7 @@ public class MyCalculatorTest {
     public void isSum3(){
         char x = 7;
         int y = 5;
-        int z = x+y+1;
+        int z = x+y;
         Assert.assertEquals(z,myCalculator.sum(x,y), 0.00001);
     }
 }
