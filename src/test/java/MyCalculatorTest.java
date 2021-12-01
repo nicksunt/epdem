@@ -6,7 +6,7 @@ public class MyCalculatorTest {
 
     @Test
     public void isSum1(){
-        int x = 4;
+        int x = 9;
         int y = 5;
         int z = x+y;
         System.out.println("test passed");
